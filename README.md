@@ -18,8 +18,8 @@ Deploy a simple Node.js server to EC2, using Elastic Beanstalk
 
 ## Links to application deployment
 
-- [AWS GUI Deploy](https://aws.amazon.com/)
-- [AWS CLI Deploy](https://aws.amazon.com/)
+- [AWS GUI Deploy](http://lab16cloudserver-env.eba-jpphykbq.us-west-2.elasticbeanstalk.com/)
+- [AWS CLI Deploy](http://cloud-server.eba-srgjq4y6.us-west-2.elasticbeanstalk.com/)
 - [Pull Requests](https://github.com/ryanemmans/cloud-server/pulls?q=is%3Apr+is%3Aclosed)
 
 ## Process
