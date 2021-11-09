@@ -24,4 +24,17 @@ Deploy a simple Node.js server to EC2, using Elastic Beanstalk
 
 ## Process
 
-![Cloud Server UML](./img/cloud-server.png)
+```plaintext
+When zipping for GUI deployment, include everything but node_modules
+
+- Configure AWS credentials
+- `AWS` CLI: `aws configure`
+- `cd` into project directory
+  - run `eb init` -> 3, to initialize application.
+  - 2 for Create new Application
+  - Select platform -> 1
+  - Setup SSH -> no
+  - run `eb create app-name`, to create your environment
+  - `eb deploy`
+  - `eb open`
+```
